@@ -2,29 +2,29 @@
 
 // Define colours
 $color-white:                       #fff;
-$color-black:                       #1C140D;
+$color-black:                       #000;
 
-$color-rgb-black:                   28,20,13;
+// http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.
 
 // Hex
 $color-brand-primary:               #CBE86B;    // Special shirt
-$color-brand-secondary:             #1C140D;    // Black
-$color-brand-tertiary:              #1C140D;    // Black
+$color-brand-secondary:             #F2E9E1;    // write it
+$color-brand-tertiary:              #1C140D;    // can't express myself
 
 $color-brand-complementary1:        #1C140D;    // Black
 $color-brand-complementary2:        #1C140D;    // Black
 
 // RBG
-$color-brand-rgb-primary:           203,232,107; // Turquoise - #49b0ca
-$color-brand-rgb-secondary:         0,0,0;  // Black - #000
-$color-brand-rgb-tertiary:          0,0,0;  // Black - #000
+$color-brand-rgb-primary:           203,232,107; // special shirt
+$color-brand-rgb-secondary:         242,233,245;  // write it
+$color-brand-rgb-tertiary:          28,20,13;  // Black - #000
 
 $color-brand-rgb-complementary1:    28,20,13;  // Black - #000
 $color-brand-rgb-complementary2:    0,0,0;  // Black - #000
 
 // $color-brand-complementary:         rgba(0, 0, 0, 1);
 
-$color-copy:                        $color-rgb-black;
+$color-copy:                        lighten($color-black, 10%);
 $color-text-shadow:                 darken($color-white, 5%);
 $color-page-bg:                     $color-white;
 

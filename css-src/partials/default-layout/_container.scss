@@ -19,7 +19,6 @@
  */
 .layoutWrapper {
 	@include container;
-	padding: 1em;
 	@include at-breakpoint($tablet) {
 		@include container;
 	}
