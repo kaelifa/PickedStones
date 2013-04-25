@@ -15,10 +15,10 @@
  *       @notes
  */
 
-
 /**
  * @section        layoutHeader
  */
 .layoutHeader {
-	@include container;
+	background: $color-brand-primary;
+	// @include bleed(2);
 }

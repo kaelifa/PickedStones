@@ -2,27 +2,29 @@
 
 // Define colours
 $color-white:                       #fff;
-$color-black:                       #000;
+$color-black:                       #1C140D;
+
+$color-rgb-black:                   28,20,13;
 
 // Hex
-$color-brand-primary:               #e41b5b;    // Pink
-$color-brand-secondary:             #000;    // Black
-$color-brand-tertiary:              #000;    // Black
+$color-brand-primary:               #CBE86B;    // Special shirt
+$color-brand-secondary:             #1C140D;    // Black
+$color-brand-tertiary:              #1C140D;    // Black
 
-$color-brand-complementary1:        #000;    // Black
-$color-brand-complementary2:        #000;    // Black
+$color-brand-complementary1:        #1C140D;    // Black
+$color-brand-complementary2:        #1C140D;    // Black
 
 // RBG
-$color-brand-rgb-primary:           228,27,91; // Pink - #e41b5b
+$color-brand-rgb-primary:           203,232,107; // Turquoise - #49b0ca
 $color-brand-rgb-secondary:         0,0,0;  // Black - #000
 $color-brand-rgb-tertiary:          0,0,0;  // Black - #000
 
-$color-brand-rgb-complementary1:    0,0,0;  // Black - #000
+$color-brand-rgb-complementary1:    28,20,13;  // Black - #000
 $color-brand-rgb-complementary2:    0,0,0;  // Black - #000
 
 // $color-brand-complementary:         rgba(0, 0, 0, 1);
 
-$color-copy:                        lighten($color-black, 10%);
+$color-copy:                        $color-rgb-black;
 $color-text-shadow:                 darken($color-white, 5%);
 $color-page-bg:                     $color-white;
 

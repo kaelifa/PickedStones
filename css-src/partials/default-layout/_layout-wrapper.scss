@@ -1,5 +1,5 @@
 /**
- * @description    Styling for the main layout wrapper
+ * @description    Styling for the main container wrapper
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
@@ -7,17 +7,22 @@
  *
  *
  *     @example
- *                 <div class="layoutWrapper"></div>
+ *                 <div class="container"></div>
  *
  *
- *        @type    layout
+ *        @type    container
  *       @notes
  */
 
-
 /**
- * @section        layoutWrapper
+ * @section        container
  */
-.layoutWrapper {
+.container {
 	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+	}
 }

@@ -14,7 +14,6 @@
  *       @notes
  */
 
-
 /**
  * @section        body
  */
@@ -23,4 +22,5 @@ body {
 	color: $color-copy;
 	@include default-font-stack;
 	@include font-size(1.6);
+	margin: 0;
 }

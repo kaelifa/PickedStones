@@ -14,13 +14,10 @@
  *       @notes
  */
 
-
 /**
  * @section        navPrimary
  */
 .navPrimary {
-	@include container;
-	margin-bottom: 1em;
 	li {
 		float: left;
 		margin-right: 1em;
