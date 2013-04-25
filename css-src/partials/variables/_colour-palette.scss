@@ -4,29 +4,29 @@
 $color-white:                       #fff;
 $color-black:                       #000;
 
-// http://www.colourlovers.com/palette/725298/Strawberry_Mousse
+// http://www.colourlovers.com/palette/1283145/The_Way_You_Love_Me
 
 // Hex
-$color-brand-primary:               #A79C8E;    // silver spoons
-$color-brand-secondary:             #F8ECC9;    // white chocolate fill
-$color-brand-tertiary:              #EB9F9F;    // strawberry mousse
+$color-brand-primary:               #028F76;    // Bursting Blue
+$color-brand-secondary:             #D14334;    // love
+$color-brand-tertiary:              #B3E099;    // lite minte
 
-$color-brand-complementary1:        #6B5344;    // really rich cocoa
-$color-brand-complementary2:        #F1BBBA;    // sweet treat
+$color-brand-complementary1:        #FFEAAD;    // crystal
+$color-brand-complementary2:        #1C2130;    // void
 
 // RBG
-$color-brand-rgb-primary:           167,156,142; // silver spoons
-$color-brand-rgb-secondary:         248,236,201;  // white chocolate fill
-$color-brand-rgb-tertiary:          235,159,159;  // strawberry mousse
+$color-brand-rgb-primary:           2,143,118; // Bursting Blue
+$color-brand-rgb-secondary:         209,67,52;  // love
+$color-brand-rgb-tertiary:          179,224,153;  // lite minte
 
-$color-brand-rgb-complementary1:    107,83,68;  // really rich cocoa
-$color-brand-rgb-complementary2:    241,187,186;  // sweet treat
+$color-brand-rgb-complementary1:    255,234,173;  // crystal
+$color-brand-rgb-complementary2:    28,33,48;  // void
 
 // $color-brand-complementary:         rgba(0, 0, 0, 1);
 
 $color-copy:                        lighten($color-black, 10%);
 $color-text-shadow:                 darken($color-white, 5%);
-$color-page-bg:                     $color-brand-secondary;
+$color-page-bg:                     $color-white;
 
 $color-border:                      lighten($color-black, 50%);
 

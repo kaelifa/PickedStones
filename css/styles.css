@@ -19,12 +19,12 @@
 }
 
 ::-moz-selection {
-  background: #6b5344;
+  background: #ffeaad;
   text-shadow: none;
 }
 
 ::selection {
-  background: #6b5344;
+  background: #ffeaad;
   text-shadow: none;
 }
 
@@ -105,7 +105,7 @@ dfn {
 }
 
 mark {
-  background: #6b5344;
+  background: #ffeaad;
   color: #1a1a1a;
 }
 
@@ -274,7 +274,7 @@ html {
  * @section        body
  */
 body {
-  background: #f8ecc9;
+  background: white;
   color: #1a1a1a;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
@@ -327,7 +327,7 @@ nav li {
  * @section        a
  */
 a {
-  color: #a79c8e;
+  color: #d14334;
   text-decoration: none;
 }
 a:hover, a:active {
@@ -375,17 +375,23 @@ p {
  * @section        h1
  */
 h1 {
-  color: #a79c8e;
-  font-size: 18px;
-  font-size: 1.8rem;
-  margin: 0;
+  color: #028f76;
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #028f76;
 }
 
 /**
  * @section        h2
  */
 h2 {
-  color: #f8ecc9;
   font-size: 16px;
   font-size: 1.6rem;
 }
@@ -393,10 +399,6 @@ h2 {
 /**
  * @section        h3
  */
-h3 {
-  color: #f8ecc9;
-}
-
 /**
  * @section        h4
  */
@@ -560,6 +562,11 @@ strong {
 /**
  * @section        layoutHeader
  */
+.layoutHeader {
+  background: #d14334;
+  color: #ffeaad;
+}
+
 /**
  * @description    Styling for the main layout content area
  *
@@ -599,8 +606,7 @@ strong {
  * @section        layoutFooter
  */
 .layoutFooter {
-  background: #6b5344;
-  color: #f8ecc9;
+  background: #b3e099;
 }
 
 /** @section     Navigation */
@@ -622,15 +628,12 @@ strong {
 /**
  * @section        navPrimary
  */
-.navPrimary {
-  background: #a79c8e;
-}
 .navPrimary li {
   float: left;
   margin-right: 1em;
 }
 .navPrimary a {
-  color: #f8ecc9;
+  color: #d14334;
   font-weight: bold;
 }
 

@@ -19,15 +19,21 @@
  */
 h1 {
 	color: $color-brand-primary;
-	@include font-size(1.8);
-	margin: 0;
+	@include font-size(2.8);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $color-brand-primary;
 }
 
 /**
  * @section        h2
  */
 h2 {
-	color: $color-brand-secondary;
 	@include font-size(1.6);
 }
 
@@ -35,7 +41,7 @@ h2 {
  * @section        h3
  */
 h3 {
-	color: $color-brand-secondary;
+
 }
 
 /**
