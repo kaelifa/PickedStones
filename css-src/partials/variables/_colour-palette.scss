@@ -4,29 +4,29 @@
 $color-white:                       #fff;
 $color-black:                       #000;
 
-// http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.
+// http://www.colourlovers.com/palette/725298/Strawberry_Mousse
 
 // Hex
-$color-brand-primary:               #CBE86B;    // Special shirt
-$color-brand-secondary:             #F2E9E1;    // write it
-$color-brand-tertiary:              #1C140D;    // can't express myself
+$color-brand-primary:               #A79C8E;    // silver spoons
+$color-brand-secondary:             #F8ECC9;    // white chocolate fill
+$color-brand-tertiary:              #EB9F9F;    // strawberry mousse
 
-$color-brand-complementary1:        #1C140D;    // Black
-$color-brand-complementary2:        #1C140D;    // Black
+$color-brand-complementary1:        #6B5344;    // really rich cocoa
+$color-brand-complementary2:        #F1BBBA;    // sweet treat
 
 // RBG
-$color-brand-rgb-primary:           203,232,107; // special shirt
-$color-brand-rgb-secondary:         242,233,245;  // write it
-$color-brand-rgb-tertiary:          28,20,13;  // Black - #000
+$color-brand-rgb-primary:           167,156,142; // silver spoons
+$color-brand-rgb-secondary:         248,236,201;  // white chocolate fill
+$color-brand-rgb-tertiary:          235,159,159;  // strawberry mousse
 
-$color-brand-rgb-complementary1:    28,20,13;  // Black - #000
-$color-brand-rgb-complementary2:    0,0,0;  // Black - #000
+$color-brand-rgb-complementary1:    107,83,68;  // really rich cocoa
+$color-brand-rgb-complementary2:    241,187,186;  // sweet treat
 
 // $color-brand-complementary:         rgba(0, 0, 0, 1);
 
 $color-copy:                        lighten($color-black, 10%);
 $color-text-shadow:                 darken($color-white, 5%);
-$color-page-bg:                     $color-white;
+$color-page-bg:                     $color-brand-secondary;
 
 $color-border:                      lighten($color-black, 50%);
 

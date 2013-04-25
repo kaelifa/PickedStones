@@ -20,9 +20,9 @@
  */
 a {
 	color: $color-brand-primary;
-	text-decoration: underline;
+	text-decoration: none;
 	&:visited {
-		color: $color-brand-secondary;
+
 	}
 	&:hover,
 	&:active {

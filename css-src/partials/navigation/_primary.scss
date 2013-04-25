@@ -18,11 +18,13 @@
  * @section        navPrimary
  */
 .navPrimary {
+	background: $color-brand-primary;
 	li {
 		float: left;
 		margin-right: 1em;
 	}
 	a {
+		color: $color-brand-secondary;
 		font-weight: bold;
 	}
 }
