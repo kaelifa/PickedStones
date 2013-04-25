@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /**
- * @projectDescription    it-contractor-mortgages.co.uk
+ * @projectDescription    Picked Stones Farm
  *               @file    styles.css
  *             @author    Kristina Auckland <kristina.auckland@gmail.com>
  *            @version    0.1
- *               @date    2013-04-20 09:12
+ *               @date    2013-04-25 20:30
  */
 
 // * NB. This is the master Sass file which imports all the partials.
@@ -50,23 +50,11 @@
 @import "partials/default-layout/layout-main";
 @import "partials/default-layout/layout-footer";
 
-@import "partials/default-layout/content-main";
-@import "partials/default-layout/content-supporting";
-@import "partials/default-layout/content-intro";
-
 /** @section     Navigation */
 @import "partials/navigation/primary";
-@import "partials/navigation/sidebar";
-@import "partials/navigation/planner";
 
 /** @section     Modules */
-@import "partials/modules/call-us";
-@import "partials/modules/banner";
-@import "partials/modules/special-features";
-@import "partials/modules/highlight";
-@import "partials/modules/list-star";
-@import "partials/modules/list-planner";
-@import "partials/modules/list-mortgage-planner";
+// @import "partials/modules/XXXX";
 
 /** @section     Plugins */
 // @import "partials/plugins/XXXX";
@@ -76,11 +64,9 @@
 // @import "partials/helpers/hidden";
 // @import "partials/helpers/visually-hidden";
 // @import "partials/helpers/invisible";
-@import "partials/helpers/ac";
-@import "partials/helpers/brand";
 
 /** @section     Print */
-// @import "partials/media/print";
+@import "partials/media/print";
 
 /** @section     Development */
 // @import "partials/development/debug";
