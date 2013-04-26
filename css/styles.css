@@ -19,12 +19,12 @@
 }
 
 ::-moz-selection {
-  background: #ffeaad;
+  background: #fc354c;
   text-shadow: none;
 }
 
 ::selection {
-  background: #ffeaad;
+  background: #fc354c;
   text-shadow: none;
 }
 
@@ -105,7 +105,7 @@ dfn {
 }
 
 mark {
-  background: #ffeaad;
+  background: #fc354c;
   color: #1a1a1a;
 }
 
@@ -327,10 +327,11 @@ nav li {
  * @section        a
  */
 a {
-  color: #d14334;
+  color: #fc354c;
   text-decoration: none;
 }
 a:hover, a:active {
+  color: #af0317;
   text-decoration: underline;
 }
 
@@ -372,21 +373,24 @@ p {
  *       @notes
  */
 /**
- * @section        h1
+ * @section        combined
  */
-h1 {
-  color: #028f76;
-  font-size: 28px;
-  font-size: 2.8rem;
-  font-family: Georgia, Times, "Times New Roman", serif;
-}
-
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #028f76;
+  color: #1a9da9;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/**
+ * @section        h1
+ */
+h1 {
+  font-size: 28px;
+  font-size: 2.8rem;
 }
 
 /**
@@ -569,8 +573,8 @@ strong {
  * @section        layoutHeader
  */
 .layoutHeader {
-  background: #d14334;
-  color: #ffeaad;
+  background: #1a9da9;
+  color: white;
 }
 
 /**
@@ -612,7 +616,7 @@ strong {
  * @section        layoutFooter
  */
 .layoutFooter {
-  background: #b3e099;
+  background: #1a9da9;
 }
 
 /** @section     Navigation */
@@ -634,13 +638,24 @@ strong {
 /**
  * @section        navPrimary
  */
+.navPrimary {
+  background: #1a9da9;
+  padding: 0;
+}
+.navPrimary ul {
+  padding-bottom: 0;
+  padding-top: 0;
+}
 .navPrimary li {
   float: left;
   margin-right: 1em;
 }
 .navPrimary a {
-  color: #d14334;
+  background: white;
+  color: #1a9da9;
+  display: block;
   font-weight: bold;
+  padding: 1em 2em;
 }
 
 /** @section     Modules */
@@ -664,6 +679,8 @@ strong {
  */
 .logo {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 /** @section     Plugins */

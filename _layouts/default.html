@@ -20,11 +20,9 @@
 
 		<nav class="navPrimary" role="navigation">
 			<ul class="layoutWrapper">
-				<ul>
-					{% assign pages_list = site.pages %}
-					{% assign group = 'navPrimary' %}
-					{% include pages_list %}
-				</ul>
+				{% assign pages_list = site.pages %}
+				{% assign group = 'navPrimary' %}
+				{% include pages_list %}
 			</ul>
 		</nav>
 

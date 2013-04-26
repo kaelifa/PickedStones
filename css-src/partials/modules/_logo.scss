@@ -19,4 +19,5 @@
  */
 .logo {
 	@include default-font-stack;
+	@include font-size(3.6);
 }

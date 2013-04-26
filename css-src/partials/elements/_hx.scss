@@ -15,20 +15,23 @@
  */
 
 /**
- * @section        h1
+ * @section        combined
  */
-h1 {
-	color: $color-brand-primary;
-	@include font-size(2.8);
-	@include headline-font-stack;
-}
-
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	color: $color-brand-primary;
+	color: $color-brand-secondary;
+	@include headline-font-stack;
+}
+
+/**
+ * @section        h1
+ */
+h1 {
+	@include font-size(2.8);
 }
 
 /**
