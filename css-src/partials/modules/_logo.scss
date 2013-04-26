@@ -1,0 +1,22 @@
+/**
+ * @description    Creates the default styling for the logo module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-26 08:58
+ *
+ *
+ *     @example
+ *                 <p class="logo">Logo text</p>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+
+/**
+ * @section        logo
+ */
+.logo {
+	@include default-font-stack;
+}
