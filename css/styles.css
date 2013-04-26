@@ -575,7 +575,7 @@ strong {
  * @section        contentMain
  */
 .contentMain {
-  width: 74.57627%;
+  width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
@@ -600,7 +600,7 @@ strong {
  * @section        contentSub
  */
 .contentSub {
-  width: 23.72881%;
+  width: 32.20339%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
@@ -672,6 +672,10 @@ strong {
 .layoutFooter {
   background: #5bb8cf;
 }
+.layoutFooter a {
+  color: white;
+  font-weight: normal;
+}
 
 /** @section     Navigation */
 /**
@@ -740,7 +744,7 @@ strong {
   font-size: 4.6rem;
   margin-bottom: 0.25em;
   margin-top: 0.25em;
-  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.6);
+  text-shadow: 0px 1px 2px #277184;
 }
 .logo a {
   color: white;
@@ -749,6 +753,24 @@ strong {
   text-decoration: none;
 }
 
+/**
+ * @description    Creates the default styling for the bannerImage module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-26 12:30
+ *
+ *
+ *     @example
+*                 <img class="bannerImage" />
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        bannerImage
+ */
 /** @section     Print */
 @media print {
   * {

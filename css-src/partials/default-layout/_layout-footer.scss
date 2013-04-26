@@ -20,4 +20,8 @@
  */
 .layoutFooter {
 	background: $color-brand;
+	a {
+		color: $color-white;
+		font-weight: normal;
+	}
 }
