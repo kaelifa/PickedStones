@@ -18,7 +18,7 @@
  * @section        navPrimary
  */
 .navPrimary {
-	background: $color-brand-secondary;
+	background: $color-brand;
 	padding: 0;
 	ul {
 		padding-bottom: 0;
@@ -30,7 +30,7 @@
 	}
 	a {
 		background: $color-page-bg;
-		color: $color-brand-secondary;
+		color: $color-brand;
 		display: block;
 		font-weight: bold;
 		padding: 1em 2em;

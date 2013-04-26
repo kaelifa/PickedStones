@@ -327,11 +327,11 @@ nav li {
  * @section        a
  */
 a {
-  color: #fc354c;
+  color: #5bb8cf;
   text-decoration: none;
 }
 a:hover, a:active {
-  color: #af0317;
+  color: #bee3ec;
   text-decoration: underline;
 }
 
@@ -381,7 +381,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1a9da9;
+  color: #5bb8cf;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -573,8 +573,7 @@ strong {
  * @section        layoutHeader
  */
 .layoutHeader {
-  background: #1a9da9;
-  color: white;
+  color: #5bb8cf;
 }
 
 /**
@@ -616,7 +615,7 @@ strong {
  * @section        layoutFooter
  */
 .layoutFooter {
-  background: #1a9da9;
+  background: #5bb8cf;
 }
 
 /** @section     Navigation */
@@ -639,7 +638,7 @@ strong {
  * @section        navPrimary
  */
 .navPrimary {
-  background: #1a9da9;
+  background: #5bb8cf;
   padding: 0;
 }
 .navPrimary ul {
@@ -652,7 +651,7 @@ strong {
 }
 .navPrimary a {
   background: white;
-  color: #1a9da9;
+  color: #5bb8cf;
   display: block;
   font-weight: bold;
   padding: 1em 2em;
@@ -678,9 +677,12 @@ strong {
  * @section        logo
  */
 .logo {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 36px;
-  font-size: 3.6rem;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-size: 40px;
+  font-size: 4rem;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  text-shadow: 0px 1px 2px #277184;
 }
 
 /** @section     Plugins */

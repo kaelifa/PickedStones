@@ -19,14 +19,14 @@
  * @section        a
  */
 a {
-	color: $color-brand-complementary1;
+	color: $color-brand;
 	text-decoration: none;
 	&:visited {
 		// color: darken($color-brand-complementary1, 50%);
 	}
 	&:hover,
 	&:active {
-		color: darken($color-brand-complementary1, 25%);
+		color: lighten($color-brand, 25%);
 		text-decoration: underline;
 	}
 }

@@ -5,22 +5,17 @@ $color-white:                       #fff;
 $color-black:                       #000;
 
 // Hex
-$color-brand-primary:               #028F76;    //
+$color-brand:               		#5BB8CF;    //
 $color-brand-secondary:             #1a9da9;    //
-$color-brand-tertiary:              #0abfbc;    //
 
-$color-brand-complementary1:        #FC354C;    //
-$color-brand-complementary2:        #1C2130;    // void
+$color-complementary:        		#FC354C;    //
 
 // RBG
 $color-brand-rgb-primary:           19,116,125; //
 $color-brand-rgb-secondary:         185,85,66;  //
-$color-brand-rgb-tertiary:          179,95,75;  //
 
 $color-brand-rgb-complementary1:    353,79,99;  //
 $color-brand-rgb-complementary2:    28,33,48;  // void
-
-// $color-brand-complementary:         rgba(0, 0, 0, 1);
 
 $color-copy:                        lighten($color-black, 10%);
 $color-text-shadow:                 darken($color-white, 5%);
@@ -28,6 +23,5 @@ $color-page-bg:                     $color-white;
 
 $color-border:                      lighten($color-black, 50%);
 
-$color-mark:                        $color-brand-complementary1;
-$color-selection:                   $color-brand-complementary1;
-$color-brand:                       $color-brand-primary;
+$color-mark:                        $color-complementary;
+$color-selection:                   $color-complementary;
