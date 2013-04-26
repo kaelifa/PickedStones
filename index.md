@@ -18,7 +18,7 @@ Find out more
 
 Picked Stones Farm is conveniently located deep in the heart of [Exmoor National Park](http://www.exmoor-nationalpark.gov.uk/) in the southe west of England. With "the best views on Exmoor" that can be appreciated from inside the beautiful conservatory. As the house faces west seeing breath-taking sunsets and a herd of Red Deer is not out of the ordinary.
 
-Picked Stones is the perfect equestrian property, the farm has direct moorland access, and it is possible to ride for hours with little to no roadwork, with miles and miles of tracks and bridleways and hunting on the doorstep.
+Picked Stones is the perfect equestrian property, the farm has direct moorland access, and it is possible to ride for hours with little to no roadwork, with miles and miles of tracks and bridleways and available on the doorstep.
 
 The farm has ample parking for trailers and lorries. There was once a very successful cross country course here.
 

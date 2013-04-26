@@ -19,10 +19,16 @@
  */
 .logo {
 	@include logo-font-stack;
-	@include font-size(4.6);
+	@include font-size(3.0);
 	margin-bottom: 0.25em;
 	margin-top: 0.25em;
 	@include single-text-shadow;
+	@include at-breakpoint($tablet) {
+
+	}
+	@include at-breakpoint($computer) {
+		@include font-size(4.6);
+	}
 	a {
 		color: $color-white;
 		&:hover {

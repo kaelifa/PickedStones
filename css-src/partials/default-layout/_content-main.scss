@@ -18,5 +18,10 @@
  * @section        contentMain
  */
 .contentMain {
-	@include span-columns(8,12);
+	@include at-breakpoint($tablet) {
+
+	}
+	@include at-breakpoint($computer) {
+		@include span-columns(8,12);
+	}
 }

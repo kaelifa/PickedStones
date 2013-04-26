@@ -32,21 +32,39 @@ h6 {
  * @section        h1
  */
 h1 {
-	@include font-size(2.8);
+	@include font-size(1.8);
+	@include at-breakpoint($tablet) {
+
+	}
+	@include at-breakpoint($computer) {
+		@include font-size(2.8);
+	}
 }
 
 /**
  * @section        h2
  */
 h2 {
-	@include font-size(2.4);
+	@include font-size(1.6);
+	@include at-breakpoint($tablet) {
+
+	}
+	@include at-breakpoint($computer) {
+		@include font-size(2.4);
+	}
 }
 
 /**
  * @section        h3
  */
 h3 {
-	@include font-size(2.0);
+	@include font-size(1.4);
+	@include at-breakpoint($tablet) {
+
+	}
+	@include at-breakpoint($computer) {
+		@include font-size(2.0);
+	}
 }
 
 /**
