@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Days+One);
-@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Dosis:500,800);
 /**
  * @projectDescription    Picked Stones Farm
  *               @file    styles.css
@@ -386,7 +385,7 @@ h5,
 h6 {
   color: #e37b3a;
   font-weight: normal;
-  font-family: 'Days One', "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-family: 'Dosis', "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 /**
@@ -685,7 +684,7 @@ strong {
  * @section        logo
  */
 .logo {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', "Arial Black", "Arial Bold", Gadget, sans-serif;
   font-size: 40px;
   font-size: 4rem;
   margin-bottom: 0.25em;
