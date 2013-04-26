@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
 	color: $color-complementary;
-	font-weight: bold;
+	font-weight: normal;
 	@include headline-font-stack;
 }
 

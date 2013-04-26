@@ -4,9 +4,16 @@
 @mixin secondary-font-stack {
 	font-family: Verdana, Geneva, sans-serif;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Days+One);
+
 @mixin headline-font-stack {
-	font-family: Georgia, Times, "Times New Roman", serif;
+	// font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: 'Days One', "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
 @mixin logo-font-stack {
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	// font-family: 'Days One', "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-family: 'Berkshire Swash', cursive;
 }
