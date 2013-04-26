@@ -29,10 +29,13 @@
 		margin-right: 1em;
 	}
 	a {
-		background: $color-page-bg;
+		background: lighten($color-brand, 25%);
 		color: $color-brand;
 		display: block;
 		font-weight: bold;
 		padding: 1em 2em;
+	}
+	.active {
+		background: $color-page-bg;
 	}
 }

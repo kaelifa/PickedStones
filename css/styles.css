@@ -19,12 +19,12 @@
 }
 
 ::-moz-selection {
-  background: #fc354c;
+  background: #e37b3a;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fc354c;
+  background: #e37b3a;
   text-shadow: none;
 }
 
@@ -105,7 +105,7 @@ dfn {
 }
 
 mark {
-  background: #fc354c;
+  background: #e37b3a;
   color: #1a1a1a;
 }
 
@@ -328,10 +328,11 @@ nav li {
  */
 a {
   color: #5bb8cf;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover, a:active {
-  color: #bee3ec;
+  color: #e37b3a;
   text-decoration: underline;
 }
 
@@ -381,7 +382,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #5bb8cf;
+  color: #e37b3a;
+  font-weight: bold;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -573,7 +575,8 @@ strong {
  * @section        layoutHeader
  */
 .layoutHeader {
-  color: #5bb8cf;
+  background: #5bb8cf;
+  color: white;
 }
 
 /**
@@ -650,11 +653,14 @@ strong {
   margin-right: 1em;
 }
 .navPrimary a {
-  background: white;
+  background: #bee3ec;
   color: #5bb8cf;
   display: block;
   font-weight: bold;
   padding: 1em 2em;
+}
+.navPrimary .active {
+  background: white;
 }
 
 /** @section     Modules */
@@ -682,7 +688,13 @@ strong {
   font-size: 4rem;
   margin-bottom: 0.25em;
   margin-top: 0.25em;
-  text-shadow: 0px 1px 2px #277184;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.6);
+}
+.logo a {
+  color: white;
+}
+.logo a:hover {
+  text-decoration: none;
 }
 
 /** @section     Plugins */

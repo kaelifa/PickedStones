@@ -5,17 +5,12 @@ $color-white:                       #fff;
 $color-black:                       #000;
 
 // Hex
-$color-brand:               		#5BB8CF;    //
-$color-brand-secondary:             #1a9da9;    //
-
-$color-complementary:        		#FC354C;    //
+$color-brand:                       #5bb8cf;    // blue
+$color-complementary:               #e37b3a;    // orange
 
 // RBG
-$color-brand-rgb-primary:           19,116,125; //
-$color-brand-rgb-secondary:         185,85,66;  //
-
-$color-brand-rgb-complementary1:    353,79,99;  //
-$color-brand-rgb-complementary2:    28,33,48;  // void
+$color-brand-rgb:                   19,116,125; // blue
+$color-brand-rgb-complementary:     23,56,91;   // orange
 
 $color-copy:                        lighten($color-black, 10%);
 $color-text-shadow:                 darken($color-white, 5%);
