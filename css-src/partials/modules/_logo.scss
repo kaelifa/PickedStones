@@ -19,7 +19,7 @@
  */
 .logo {
 	@include logo-font-stack;
-	@include font-size(4.0);
+	@include font-size(4.6);
 	margin-bottom: 0.25em;
 	margin-top: 0.25em;
 	@include single-text-shadow;
