@@ -47,6 +47,8 @@
 
 /** @section     Layout */
 @import "partials/default-layout/layout-wrapper";
+@import "partials/default-layout/content-main";
+@import "partials/default-layout/content-sub";
 @import "partials/default-layout/layout-header";
 @import "partials/default-layout/layout-main";
 @import "partials/default-layout/layout-footer";
@@ -57,18 +59,5 @@
 /** @section     Modules */
 @import "partials/modules/logo";
 
-/** @section     Plugins */
-// @import "partials/plugins/XXXX";
-
-/** @section     Helpers */
-// @import "partials/helpers/ir";
-// @import "partials/helpers/hidden";
-// @import "partials/helpers/visually-hidden";
-// @import "partials/helpers/invisible";
-
 /** @section     Print */
 @import "partials/media/print";
-
-/** @section     Development */
-// @import "partials/development/debug";
-// @import "partials/development/style-guide";

@@ -1,0 +1,22 @@
+/**
+ * @description    Styling for the main contentSub wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-26 11:58
+ *
+ *
+ *     @example
+ *                 <aside class="contentSub"></aside>
+ *
+ *
+ *        @type    contentSub
+ *       @notes
+ */
+
+/**
+ * @section        contentSub
+ */
+.contentSub {
+	@include span-columns(3 omega,12);
+}

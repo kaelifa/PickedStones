@@ -557,6 +557,57 @@ strong {
 }
 
 /**
+ * @description    Styling for the main contentMain wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-26 11:57
+ *
+ *
+ *     @example
+ *                 <section class="contentMain"></section>
+ *
+ *
+ *        @type    contentMain
+ *       @notes
+ */
+/**
+ * @section        contentMain
+ */
+.contentMain {
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/**
+ * @description    Styling for the main contentSub wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-26 11:58
+ *
+ *
+ *     @example
+ *                 <aside class="contentSub"></aside>
+ *
+ *
+ *        @type    contentSub
+ *       @notes
+ */
+/**
+ * @section        contentSub
+ */
+.contentSub {
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/**
  * @description    Styling for the main layout header
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
@@ -698,8 +749,6 @@ strong {
   text-decoration: none;
 }
 
-/** @section     Plugins */
-/** @section     Helpers */
 /** @section     Print */
 @media print {
   * {
@@ -763,4 +812,3 @@ strong {
     page-break-after: avoid;
   }
 }
-/** @section     Development */

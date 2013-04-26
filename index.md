@@ -25,15 +25,3 @@ The farm has ample parking for trailers and lorries. There was once a very succe
 The house comfortably sleeps 9, there are two double en-suite rooms on the first floor, and the whole of the top floor is a family room with an en-suite bathroom. On the ground floor there is a sofa bed located in the second sitting room. There is also a shower and WC on the ground floor.
 
 Exmoor is the best kept secret of all the UK's [national parks](http://www.nationalparks.gov.uk), located straddling the Devon and Somerset county border in the south west of England.
-
-## Facilities
-- Two double en-suite bedrooms
-- One en-suite family room with one double bed and two singles
-- Utility room
-- Ample parking
-- Wood burner
-- Rayburn
-- WC &amp; shower on the ground floor
-- Conservatory
-- Barbeque area
-- Outside WC
