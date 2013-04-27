@@ -8,7 +8,7 @@ group: "navPrimary"
 navTitle: "Home"
 ---
 
-## Unique opportunity to purchase an historic working Somerset hill farm deep in the heart of Exmoor
+## Unique opportunity to purchase an historic working Somerset hill farm secluded deep in the heart of Exmoor
 
 Picked Stones is on the market please feel free to [contact](/Contact) us if you would like more information 
 
